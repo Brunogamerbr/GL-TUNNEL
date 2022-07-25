@@ -1,7 +1,12 @@
-spinner=(██▓░░░░░░░ ████▓░░░░░ ██████▓░░░ ████████▓░ ██████████)
+spinner=(██ ████ ██████ ████████ ██████████)
    spin(){
       for i in "${spinner[@]}"
          do
-        echo -ne "\r$i"; apt update -y > /dev/null 2>&1
+        echo -ne "\r$i"; 
+        
+        
+        sleep 3s -y > /dev/null 2>&1
+        
+        
       done
    }; spin
