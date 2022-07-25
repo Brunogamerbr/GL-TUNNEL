@@ -5,7 +5,7 @@ spinner=(██ ████ ██████ ████████ ██�
         echo -ne "Instalando nodejs [$i]"; 
         
         
-        sleep 3s -y > /dev/null 2>&1
+        sleep 7s -y > /dev/null 2>&1
         
         
       done
